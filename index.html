@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--Define o o conjunto de caracteres utilizados na página como UTF-8-->
+    <meta charset="UTF-8">
+    <!--Torna a página compatível com as versões mais antigas do edge (I.E)-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Torna o site portável a outros dispositivos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordenação Online</title>
+    <!--Se conecta com o documento que contém o CSS do site-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nav">
+            <ul class="nav">
+                <a><li>Algoritmos de Ordenação</li></a>
+                <a><li>Sobre</li></a>
+                <a><li>Contato</li></a>
+            </ul>
+    </div>
+
+    <div id="entrada">
+        <h1>Ordenação Online</h1>
+        <p>Bem vindo ao site Ordenação Online, aqui você pode ordenar<br>
+           qualquer lista de números de forma rápida
+           e prática.</p>
+        <p>Obs: separe os termos da lista com espaços (" ") ou vírgulas.</p>
+        <p>Ex: 5 2 3 6 1 ou 9,2,4,1,6,7</p>
+        
+        <p>Lista desordenada: <input type="text" placeholder="Lista desordenada" name="lista" id="lista"></p>
+        <button type="submit" name="ordenar" onclick="ordenar()">Ordenar</button>
+    </div>
+
+    <div id="saida"></div>
+
+    <footer>Feito por <a href="https://github.com/elamrs" style="text-decoration: none; color: darkgrey;">Elam Rufino</a>.</footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
